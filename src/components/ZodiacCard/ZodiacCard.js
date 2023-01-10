@@ -1,19 +1,15 @@
-import './Zodiac.css';
+import './ZodiacCard.css';
 
 export default function Zodiac(props) {
   let audio = new Audio(`/zodiacs/satan.wav`);
-  let audio2 = new Audio(`/zodiacs/death.wav`);
   let audio3 = new Audio(`/zodiacs/laugh.wav`);
   const start = () => {
     audio.play();
-    // eslint-disable-next-line space-before-function-paren
-    setTimeout(function () {
-      audio2.play();
-    }, 1000);
+
     // eslint-disable-next-line space-before-function-paren
     setTimeout(function () {
       audio3.play();
-    }, 2500);
+    }, 1500);
   };
   return (
     <div onClick={start} className="zodiac">
