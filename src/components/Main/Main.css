@@ -1,9 +1,12 @@
 main {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* margin-bottom: 40px; */
+  background-color: rgb(176, 254, 158);
   background-size: cover;
-  height: 840px;
-  align-content: flex-start;
+  /* height: 840px; */
+  height: 90vh;
+  justify-content: center;
+  align-content: center;
   position: relative;
 }

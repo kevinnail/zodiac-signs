@@ -1,0 +1,21 @@
+.zodiac {
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  color: var(--color1);
+  text-align: center;
+  background-color: rgb(135, 135, 255);
+  background-image: linear-gradient(rgb(135, 135, 255), white, rgb(135, 135, 255));
+  justify-self: center;
+}
+
+.zodiac img {
+  width: 100px;
+}
+
+.zodiac .name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
