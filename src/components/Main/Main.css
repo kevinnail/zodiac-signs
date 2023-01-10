@@ -1,6 +1,7 @@
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
   /* margin-bottom: 40px; */
   background-color: rgb(176, 254, 158);
   background-size: cover;

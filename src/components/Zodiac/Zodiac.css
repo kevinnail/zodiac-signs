@@ -1,14 +1,26 @@
 .zodiac {
   width: 200px;
   margin: 10px;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 30px;
+  padding: 30px;
   position: relative;
   color: var(--color1);
   text-align: center;
   background-color: rgb(135, 135, 255);
   background-image: linear-gradient(rgb(135, 135, 255), white, rgb(135, 135, 255));
   justify-self: center;
+  transition: 500ms;
+}
+
+.zodiac:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+  cursor: pointer;
+  background-image: linear-gradient(rgb(255, 135, 135), rgb(66, 0, 0), rgb(255, 135, 255));
+  box-shadow: 0px 0px 20px 3px white;
+}
+.zodiac:active {
+  transform: scale(0);
 }
 
 .zodiac img {
